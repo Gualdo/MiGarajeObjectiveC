@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A32126E41FCDFD390019FADD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A32126E31FCDFD390019FADD /* AppDelegate.m */; };
+		A32126E71FCDFD390019FADD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A32126E61FCDFD390019FADD /* ViewController.m */; };
+		A32126EA1FCDFD390019FADD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32126E81FCDFD390019FADD /* Main.storyboard */; };
+		A32126EC1FCDFD390019FADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32126EB1FCDFD390019FADD /* Assets.xcassets */; };
+		A32126EF1FCDFD390019FADD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32126ED1FCDFD390019FADD /* LaunchScreen.storyboard */; };
+		A32126F21FCDFD390019FADD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A32126F11FCDFD390019FADD /* main.m */; };
+		A32126FC1FCDFD390019FADD /* Mi_GarajeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A32126FB1FCDFD390019FADD /* Mi_GarajeTests.m */; };
+		A32127071FCDFD390019FADD /* Mi_GarajeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A32127061FCDFD390019FADD /* Mi_GarajeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A32126F81FCDFD390019FADD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A32126D71FCDFD390019FADD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A32126DE1FCDFD390019FADD;
+			remoteInfo = "Mi Garaje";
+		};
+		A32127031FCDFD390019FADD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A32126D71FCDFD390019FADD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A32126DE1FCDFD390019FADD;
+			remoteInfo = "Mi Garaje";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A32126DF1FCDFD390019FADD /* Mi Garaje.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mi Garaje.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32126E21FCDFD390019FADD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A32126E31FCDFD390019FADD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A32126E51FCDFD390019FADD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A32126E61FCDFD390019FADD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A32126E91FCDFD390019FADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A32126EB1FCDFD390019FADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A32126EE1FCDFD390019FADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A32126F01FCDFD390019FADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A32126F11FCDFD390019FADD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A32126F71FCDFD390019FADD /* Mi GarajeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mi GarajeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32126FB1FCDFD390019FADD /* Mi_GarajeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mi_GarajeTests.m; sourceTree = "<group>"; };
+		A32126FD1FCDFD390019FADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A32127021FCDFD390019FADD /* Mi GarajeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mi GarajeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32127061FCDFD390019FADD /* Mi_GarajeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mi_GarajeUITests.m; sourceTree = "<group>"; };
+		A32127081FCDFD390019FADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A32126DC1FCDFD390019FADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32126F41FCDFD390019FADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32126FF1FCDFD390019FADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A32126D61FCDFD390019FADD = {
+			isa = PBXGroup;
+			children = (
+				A32126E11FCDFD390019FADD /* Mi Garaje */,
+				A32126FA1FCDFD390019FADD /* Mi GarajeTests */,
+				A32127051FCDFD390019FADD /* Mi GarajeUITests */,
+				A32126E01FCDFD390019FADD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A32126E01FCDFD390019FADD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A32126DF1FCDFD390019FADD /* Mi Garaje.app */,
+				A32126F71FCDFD390019FADD /* Mi GarajeTests.xctest */,
+				A32127021FCDFD390019FADD /* Mi GarajeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A32126E11FCDFD390019FADD /* Mi Garaje */ = {
+			isa = PBXGroup;
+			children = (
+				A32126E21FCDFD390019FADD /* AppDelegate.h */,
+				A32126E31FCDFD390019FADD /* AppDelegate.m */,
+				A32126E51FCDFD390019FADD /* ViewController.h */,
+				A32126E61FCDFD390019FADD /* ViewController.m */,
+				A32126E81FCDFD390019FADD /* Main.storyboard */,
+				A32126EB1FCDFD390019FADD /* Assets.xcassets */,
+				A32126ED1FCDFD390019FADD /* LaunchScreen.storyboard */,
+				A32126F01FCDFD390019FADD /* Info.plist */,
+				A32126F11FCDFD390019FADD /* main.m */,
+			);
+			path = "Mi Garaje";
+			sourceTree = "<group>";
+		};
+		A32126FA1FCDFD390019FADD /* Mi GarajeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A32126FB1FCDFD390019FADD /* Mi_GarajeTests.m */,
+				A32126FD1FCDFD390019FADD /* Info.plist */,
+			);
+			path = "Mi GarajeTests";
+			sourceTree = "<group>";
+		};
+		A32127051FCDFD390019FADD /* Mi GarajeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A32127061FCDFD390019FADD /* Mi_GarajeUITests.m */,
+				A32127081FCDFD390019FADD /* Info.plist */,
+			);
+			path = "Mi GarajeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A32126DE1FCDFD390019FADD /* Mi Garaje */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A321270B1FCDFD390019FADD /* Build configuration list for PBXNativeTarget "Mi Garaje" */;
+			buildPhases = (
+				A32126DB1FCDFD390019FADD /* Sources */,
+				A32126DC1FCDFD390019FADD /* Frameworks */,
+				A32126DD1FCDFD390019FADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mi Garaje";
+			productName = "Mi Garaje";
+			productReference = A32126DF1FCDFD390019FADD /* Mi Garaje.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A32126F61FCDFD390019FADD /* Mi GarajeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A321270E1FCDFD390019FADD /* Build configuration list for PBXNativeTarget "Mi GarajeTests" */;
+			buildPhases = (
+				A32126F31FCDFD390019FADD /* Sources */,
+				A32126F41FCDFD390019FADD /* Frameworks */,
+				A32126F51FCDFD390019FADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A32126F91FCDFD390019FADD /* PBXTargetDependency */,
+			);
+			name = "Mi GarajeTests";
+			productName = "Mi GarajeTests";
+			productReference = A32126F71FCDFD390019FADD /* Mi GarajeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A32127011FCDFD390019FADD /* Mi GarajeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32127111FCDFD390019FADD /* Build configuration list for PBXNativeTarget "Mi GarajeUITests" */;
+			buildPhases = (
+				A32126FE1FCDFD390019FADD /* Sources */,
+				A32126FF1FCDFD390019FADD /* Frameworks */,
+				A32127001FCDFD390019FADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A32127041FCDFD390019FADD /* PBXTargetDependency */,
+			);
+			name = "Mi GarajeUITests";
+			productName = "Mi GarajeUITests";
+			productReference = A32127021FCDFD390019FADD /* Mi GarajeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A32126D71FCDFD390019FADD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Eduardo de la Cruz";
+				TargetAttributes = {
+					A32126DE1FCDFD390019FADD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					A32126F61FCDFD390019FADD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A32126DE1FCDFD390019FADD;
+					};
+					A32127011FCDFD390019FADD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A32126DE1FCDFD390019FADD;
+					};
+				};
+			};
+			buildConfigurationList = A32126DA1FCDFD390019FADD /* Build configuration list for PBXProject "Mi Garaje" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A32126D61FCDFD390019FADD;
+			productRefGroup = A32126E01FCDFD390019FADD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A32126DE1FCDFD390019FADD /* Mi Garaje */,
+				A32126F61FCDFD390019FADD /* Mi GarajeTests */,
+				A32127011FCDFD390019FADD /* Mi GarajeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A32126DD1FCDFD390019FADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32126EF1FCDFD390019FADD /* LaunchScreen.storyboard in Resources */,
+				A32126EC1FCDFD390019FADD /* Assets.xcassets in Resources */,
+				A32126EA1FCDFD390019FADD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32126F51FCDFD390019FADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32127001FCDFD390019FADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A32126DB1FCDFD390019FADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32126E71FCDFD390019FADD /* ViewController.m in Sources */,
+				A32126F21FCDFD390019FADD /* main.m in Sources */,
+				A32126E41FCDFD390019FADD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32126F31FCDFD390019FADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32126FC1FCDFD390019FADD /* Mi_GarajeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32126FE1FCDFD390019FADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32127071FCDFD390019FADD /* Mi_GarajeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A32126F91FCDFD390019FADD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A32126DE1FCDFD390019FADD /* Mi Garaje */;
+			targetProxy = A32126F81FCDFD390019FADD /* PBXContainerItemProxy */;
+		};
+		A32127041FCDFD390019FADD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A32126DE1FCDFD390019FADD /* Mi Garaje */;
+			targetProxy = A32127031FCDFD390019FADD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A32126E81FCDFD390019FADD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A32126E91FCDFD390019FADD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A32126ED1FCDFD390019FADD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A32126EE1FCDFD390019FADD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A32127091FCDFD390019FADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A321270A1FCDFD390019FADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A321270C1FCDFD390019FADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 273FZ5G5B8;
+				INFOPLIST_FILE = "Mi Garaje/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edelacruz.Mi-Garaje";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A321270D1FCDFD390019FADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 273FZ5G5B8;
+				INFOPLIST_FILE = "Mi Garaje/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edelacruz.Mi-Garaje";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A321270F1FCDFD390019FADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 273FZ5G5B8;
+				INFOPLIST_FILE = "Mi GarajeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edelacruz.Mi-GarajeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mi Garaje.app/Mi Garaje";
+			};
+			name = Debug;
+		};
+		A32127101FCDFD390019FADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 273FZ5G5B8;
+				INFOPLIST_FILE = "Mi GarajeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edelacruz.Mi-GarajeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mi Garaje.app/Mi Garaje";
+			};
+			name = Release;
+		};
+		A32127121FCDFD390019FADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 273FZ5G5B8;
+				INFOPLIST_FILE = "Mi GarajeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edelacruz.Mi-GarajeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mi Garaje";
+			};
+			name = Debug;
+		};
+		A32127131FCDFD390019FADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 273FZ5G5B8;
+				INFOPLIST_FILE = "Mi GarajeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edelacruz.Mi-GarajeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mi Garaje";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A32126DA1FCDFD390019FADD /* Build configuration list for PBXProject "Mi Garaje" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32127091FCDFD390019FADD /* Debug */,
+				A321270A1FCDFD390019FADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A321270B1FCDFD390019FADD /* Build configuration list for PBXNativeTarget "Mi Garaje" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A321270C1FCDFD390019FADD /* Debug */,
+				A321270D1FCDFD390019FADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A321270E1FCDFD390019FADD /* Build configuration list for PBXNativeTarget "Mi GarajeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A321270F1FCDFD390019FADD /* Debug */,
+				A32127101FCDFD390019FADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32127111FCDFD390019FADD /* Build configuration list for PBXNativeTarget "Mi GarajeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32127121FCDFD390019FADD /* Debug */,
+				A32127131FCDFD390019FADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A32126D71FCDFD390019FADD /* Project object */;
+}

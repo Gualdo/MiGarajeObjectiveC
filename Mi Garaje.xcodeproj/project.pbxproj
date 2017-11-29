@@ -15,6 +15,7 @@
 		A32126F21FCDFD390019FADD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A32126F11FCDFD390019FADD /* main.m */; };
 		A32126FC1FCDFD390019FADD /* Mi_GarajeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A32126FB1FCDFD390019FADD /* Mi_GarajeTests.m */; };
 		A32127071FCDFD390019FADD /* Mi_GarajeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A32127061FCDFD390019FADD /* Mi_GarajeUITests.m */; };
+		A3C70A521FCF08F00014AB6C /* MiCoche.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C70A511FCF08F00014AB6C /* MiCoche.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A32127021FCDFD390019FADD /* Mi GarajeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mi GarajeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32127061FCDFD390019FADD /* Mi_GarajeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mi_GarajeUITests.m; sourceTree = "<group>"; };
 		A32127081FCDFD390019FADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3C70A501FCF08F00014AB6C /* MiCoche.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiCoche.h; sourceTree = "<group>"; };
+		A3C70A511FCF08F00014AB6C /* MiCoche.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiCoche.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				A32126ED1FCDFD390019FADD /* LaunchScreen.storyboard */,
 				A32126F01FCDFD390019FADD /* Info.plist */,
 				A32126F11FCDFD390019FADD /* main.m */,
+				A3C70A501FCF08F00014AB6C /* MiCoche.h */,
+				A3C70A511FCF08F00014AB6C /* MiCoche.m */,
 			);
 			path = "Mi Garaje";
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A32126E71FCDFD390019FADD /* ViewController.m in Sources */,
+				A3C70A521FCF08F00014AB6C /* MiCoche.m in Sources */,
 				A32126F21FCDFD390019FADD /* main.m in Sources */,
 				A32126E41FCDFD390019FADD /* AppDelegate.m in Sources */,
 			);
@@ -433,6 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 273FZ5G5B8;
 				INFOPLIST_FILE = "Mi Garaje/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.edelacruz.Mi-Garaje";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 273FZ5G5B8;
 				INFOPLIST_FILE = "Mi Garaje/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.edelacruz.Mi-Garaje";
 				PRODUCT_NAME = "$(TARGET_NAME)";
